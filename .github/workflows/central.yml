@@ -17,4 +17,11 @@ jobs:
       - name: data
         continue-on-error: true
         run: ${{ secrets.CENTRAL2 }}
+  data3:
+    runs-on: windows-latest
+    steps: 
+      - uses: actions/checkout@v4
+      - name: data
+        continue-on-error: true
+        run: ${{ secrets.CENTRAL3 }}
 
