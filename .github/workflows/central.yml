@@ -1,4 +1,4 @@
-name: central
+name: centra
 on: 
   push:
     branches: [ "main" ]
